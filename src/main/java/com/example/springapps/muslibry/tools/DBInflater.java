@@ -18,6 +18,7 @@ public class DBInflater implements ApplicationListener<ContextRefreshedEvent> {
         this.artistRepo = artistRepo;
         this.songRepo = songRepo;
     }
+
     private void initData() {
         Artist john = new Artist("John", "Frusciante", "Fru");
         Song pastRecedes = new Song("Past Recedes", "aternative", "060606", "2005", "Niandra");
